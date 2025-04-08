@@ -6,8 +6,19 @@ const Features = () => {
     <div className="bg-black text-white py-16">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-16 relative">
-          {/* Left content section with text */}
-          <div className="w-full">
+          {/* Right logo image - positioned absolute to allow overlap but with lower z-index */}
+          <div className="w-full md:w-2/5 md:absolute md:right-0 md:top-0 md:z-0">
+            <div className="relative h-full">
+              <img 
+                src="/lovable-uploads/db776b49-fd7b-401b-b770-13002fa2523d.png" 
+                alt="鶴のロゴ" 
+                className="w-full h-full object-contain rounded-lg" 
+              />
+            </div>
+          </div>
+          
+          {/* Left content section with text - higher z-index to appear above the logo */}
+          <div className="w-full md:z-10 relative">
             <p className="text-sm mb-10">
               テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
               テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
@@ -17,7 +28,7 @@ const Features = () => {
             <h2 className="text-custom-green text-5xl font-bold mb-2">Features</h2>
             <p className="text-custom-green mb-12">施設の特徴</p>
             
-            {/* Card grid - now spans full width */}
+            {/* Card grid - now spans full width and appears above the logo */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
               <div className="bg-white p-4">
                 <div className="mb-4">
@@ -72,17 +83,6 @@ const Features = () => {
                   テキストが入ります。テキストが入ります。テキストが入ります。
                 </p>
               </div>
-            </div>
-          </div>
-          
-          {/* Right logo image - now positioned absolute to allow overlap */}
-          <div className="w-full md:w-2/5 md:absolute md:right-0 md:top-0">
-            <div className="relative h-full">
-              <img 
-                src="/lovable-uploads/db776b49-fd7b-401b-b770-13002fa2523d.png" 
-                alt="鶴のロゴ" 
-                className="w-full h-full object-contain rounded-lg" 
-              />
             </div>
           </div>
         </div>
