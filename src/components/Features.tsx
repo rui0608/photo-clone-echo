@@ -76,9 +76,9 @@ const Features = () => {
           <div className="w-full md:w-2/5">
             <div className="relative">
               <img 
-                src="/lovable-uploads/12812240-8c55-4a9c-91be-9310d83615ee.png" 
-                alt="公園の遊具" 
-                className="w-full h-full object-cover rounded-lg" 
+                src="/lovable-uploads/db776b49-fd7b-401b-b770-13002fa2523d.png" 
+                alt="鶴のロゴ" 
+                className="w-full h-full object-contain rounded-lg" 
               />
             </div>
           </div>
