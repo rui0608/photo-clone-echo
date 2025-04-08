@@ -65,8 +65,8 @@ const Overview = () => {
           <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
             <div className="bg-gray-200 h-64">
               <img 
-                src="/lovable-uploads/f56c1ab2-b068-4701-a9d1-3d6cce9a41ac.png" 
-                alt="施設の外観" 
+                src="/lovable-uploads/12812240-8c55-4a9c-91be-9310d83615ee.png" 
+                alt="公園の遊具" 
                 className="w-full h-full object-cover"
               />
             </div>

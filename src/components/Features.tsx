@@ -20,9 +20,9 @@ const Features = () => {
               <div className="bg-white p-4">
                 <div className="mb-4">
                   <img 
-                    src="/lovable-uploads/f56c1ab2-b068-4701-a9d1-3d6cce9a41ac.png" 
-                    alt="タレタメロゴ" 
-                    className="h-8" 
+                    src="/lovable-uploads/12812240-8c55-4a9c-91be-9310d83615ee.png" 
+                    alt="公園の遊具" 
+                    className="h-32 w-full object-cover" 
                   />
                 </div>
                 <h3 className="font-bold mb-4">特色をがはいります</h3>
@@ -38,9 +38,9 @@ const Features = () => {
               <div className="bg-white p-4">
                 <div className="mb-4">
                   <img 
-                    src="/lovable-uploads/f56c1ab2-b068-4701-a9d1-3d6cce9a41ac.png" 
-                    alt="タレタメロゴ" 
-                    className="h-8" 
+                    src="/lovable-uploads/12812240-8c55-4a9c-91be-9310d83615ee.png" 
+                    alt="公園の遊具" 
+                    className="h-32 w-full object-cover" 
                   />
                 </div>
                 <h3 className="font-bold mb-4">特色をがはいります</h3>
@@ -56,9 +56,9 @@ const Features = () => {
               <div className="bg-white p-4">
                 <div className="mb-4">
                   <img 
-                    src="/lovable-uploads/f56c1ab2-b068-4701-a9d1-3d6cce9a41ac.png" 
-                    alt="タレタメロゴ" 
-                    className="h-8" 
+                    src="/lovable-uploads/12812240-8c55-4a9c-91be-9310d83615ee.png" 
+                    alt="公園の遊具" 
+                    className="h-32 w-full object-cover" 
                   />
                 </div>
                 <h3 className="font-bold mb-4">特色をがはいります</h3>
@@ -76,10 +76,9 @@ const Features = () => {
           <div className="w-full md:w-2/5">
             <div className="relative">
               <img 
-                src="/lovable-uploads/f56c1ab2-b068-4701-a9d1-3d6cce9a41ac.png" 
-                alt="Turtle Illustration" 
-                className="w-full" 
-                style={{opacity: 0.5}}
+                src="/lovable-uploads/12812240-8c55-4a9c-91be-9310d83615ee.png" 
+                alt="公園の遊具" 
+                className="w-full h-full object-cover rounded-lg" 
               />
             </div>
           </div>
